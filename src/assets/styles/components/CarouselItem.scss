@@ -1,0 +1,1459 @@
+
+.carousel-item {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  height: 90vh;
+  
+}
+
+p {
+  margin: 0;
+}
+
+.carousel-item__img {
+  width: 400px;
+  height: 90vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 0;
+}
+
+.carousel-item__details {
+  border-top: red 1px solid;
+  border-left: red 1px solid;
+  border-right: red 1px solid;
+  margin-top: 1px;
+  bottom: 0;
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+}
+
+.carousel-item__details--img {
+  width: 20px;
+}
+
+.carousel-item__details--titleOne {
+  margin-top: 10%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.carousel-item__details--giftedBy {
+  color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+ 
+}
+
+.regaladoPOR  {
+  margin: 50% 0 0 0;
+  display: flex;
+  margin-left: 15px;
+  inline-size: auto;
+}
+
+.elDia {
+  display: flex;
+   margin-left: 15px;
+   inline-size: auto;
+}
+
+.carousel-item__details--answerGift {
+  top:0px;
+  color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+ 
+}
+.carousel-item__details--theDay {
+  color:black;
+  text-align: start;
+  font-family: 'Oleo Script';
+}
+
+.carousel-item__details--answerDay{
+  color:white;
+  text-align: start;
+    font-family: 'Oleo Script';
+    padding-left: 10px;
+ 
+}
+
+.carousel-item__details--titleTwo {
+  margin-top: -51%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.naci {
+  display: flex;
+  line-height: 3em; 
+}
+
+.carousel-item__details--born {
+  color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerBorn {
+  color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.city {
+  display: flex;
+   line-height: 3em; 
+}
+.carousel-item__details--city {
+  color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerCity {
+  color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.nameParants {
+ display: flex;
+  line-height: 3em; 
+}
+
+.carousel-item__details--namesParents {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerParents {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.measure {
+  display: flex;
+  line-height: 3em; 
+}
+
+.carousel-item__details--measure {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerMeasure {
+  color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.myWeight {
+  display: flex;
+  line-height: 3em; 
+}
+
+.carousel-item__details--myWeight {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerWeight {
+  color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.birthTime {
+display: flex;
+   line-height: 3em; 
+}
+
+.carousel-item__details--birthTime {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerTime {
+  color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--titleThree {
+  margin-top: 2%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.christening {
+display: flex;
+   line-height: 3em; 
+}
+
+.carousel-item__details--christening {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--christeningDate {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.church {
+display: flex;
+   line-height: 3em; 
+}
+
+.carousel-item__details--church {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--nameChurch {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.godfather {
+display: flex;
+   line-height: 3em; 
+}
+
+.carousel-item__details--godfather {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--nameGodfather {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.godmother {
+display: flex;
+   line-height: 3em;
+}
+
+.carousel-item__details--godmother {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--nameGodmother {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--titleFours {
+margin-top: -6%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.carousel-item__details--titleFour {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+}
+
+.firstDays {
+  margin-top: 50px;
+   text-align: start;
+margin-bottom: 0;
+line-height: 3em;
+}
+
+.sleep {
+ display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--sleep {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerSleep {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.myFood {
+   display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--myFood {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerMyFood {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.lull {
+ display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--lull {
+  color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerlull {
+  color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.theyChanged {
+  display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--theyChanged {
+  color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerTheyChanged {
+  
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+
+.carousel-item__details--titleFite {
+  margin-top: -10%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+
+.carousel-item__details--titleSixs {
+  margin-top: 2%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+.carousel-item__details--titleSix {
+  
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.documents {
+   margin-top: 50px;
+   text-align: start;
+margin-bottom: 0;
+line-height: 3em;
+}
+
+.documentsRegistryNumber {
+  display:flex ;
+
+text-align: start;
+}
+
+.carousel-item__details--registryNumber {
+  color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerregistryNumber {
+  color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.documentsNotaria {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--notaria {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerNotaria{
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.documentsAddress {
+  display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--address {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerAnddress {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.documentsCityRegistry {
+  display:flex ;
+text-align: start;
+}
+.carousel-item__details--cityRegistry {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerCityRegistry {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.documentsDateRegistry {
+  display:flex ;
+text-align: start;
+}
+.carousel-item__details--dateRegistry {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerDateRegistry {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--titleSeven {
+  margin-top: -12%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.carousel-item__details--titleEights {
+margin-top: -2%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+.carousel-item__details--titleEight {
+font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+  
+}
+
+.weightAndMeasurements {
+margin-top: 20px;
+text-align: start;
+margin-bottom: 0;
+line-height: 3em;
+}
+
+.firstMonth {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--weightAndMeasurements {
+  color: red;
+  text-align: center;
+  font-family: 'Oleo Script';
+  font-size: 25px;
+  margin-top: 55px;
+  word-spacing: 20px;
+}
+
+.carousel-item__details--firstMonth {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerFirstMonth {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 20px;
+  font-size: 20px;
+   word-spacing: 18px;
+}
+
+.towtMonth {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--towtMonth {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerTowtMonth {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 20px;
+  font-size: 20px;
+   word-spacing: 18px;
+}
+
+.sixtMonth {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--sixtMonth {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerSixtMonth {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 20px;
+  font-size: 20px;
+   word-spacing: 18px;
+}
+
+.niceMonth {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--niceMonth {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerNiceMonth {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+   word-spacing: 18px;
+}
+
+.carousel-item__details--titleNices {
+  margin-top: -20%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+.carousel-item__details--titleNice {
+font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+}
+
+.birthday {
+margin-top: 20px;
+text-align: start;
+margin-bottom: 0;
+line-height: 3em;
+}
+
+.celebrated {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--celebrated {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerCelebrated {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.congratulated {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--congratulated {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerCongratulated {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.answerAccompanied {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--titleTen {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerAccompanied {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--titleEleven {
+  margin-top: 25px;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+}
+
+.answerGifts {
+text-align: center;
+line-height: 2em;
+margin-top: 15px;
+ }
+
+.carousel-item__details--answerGiftsOne {
+color: white;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerGiftsTwo {
+color: white;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerGiftsThree {
+color: white;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerGiftsFour {
+color: white;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--titleTwelves {
+  margin:-6%;
+   font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+}
+
+.answerDislike {
+margin-top: 60px;
+text-align: start;
+margin-bottom: 0;
+line-height: 7em;
+}
+
+.start {
+  display:flex ;
+text-align: start;
+}
+
+
+.carousel-item__details--titleTwelve {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerDislike {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+  
+}
+
+.answerBathroom {
+ display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--titleThirteen {
+  color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+  margin-top: -20px;
+}
+.carousel-item__details--answerBathroom {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.answerDamaged {
+ display:flex ;
+text-align: start;
+}
+.carousel-item__details--titleFourteen {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.carousel-item__details--answerDamaged {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+
+.carousel-item__details--titleFifteen {
+  margin-top: -10%;
+font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+}
+
+.importantMoments {
+margin-top: 20px;
+text-align: start;
+margin-bottom: 0;
+line-height: 3em;
+}
+.startCrawling {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--startCrawling {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerStartCrawling {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.inPresence {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--inPresence {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerInPresence {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.firstShower {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--firstShower {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerFirstShower {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.accompany {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--accompany {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerAccompany {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--titleSixteen {
+  margin-top: -9%;
+font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+}
+.firstChristmas {
+margin-top: 20px;
+text-align: start;
+margin-bottom: 0;
+line-height: 3em;
+}
+.christmasCelebration {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--christmasCelebration {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerChristmasCelebration {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.weHavePassed {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--weHavePassed {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerWeHavePassed {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--titleSeventeen {
+  margin-top: 3%;
+font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+}
+.gifts {
+margin-top: 20px;
+text-align: center;
+margin-bottom: 0;
+line-height: 3em;
+}
+.IwasGivens {
+  text-align: center;
+}
+
+.IwasGiven {
+display:flex ;
+text-align: center;
+justify-content: center;
+}
+.carousel-item__details--IwasGiven {
+color: red;
+  font-family: 'Oleo Script';
+  font-size: 20px;
+}
+.carousel-item__details--anwerIwasGivenOne {
+color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  font-size: 20px;
+}
+.carousel-item__details--anwerIwasGivenTwo {
+color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  padding-left: 20px;
+  font-size: 20px;
+}
+.IwasGivenThreeAndFour {
+  display:flex ;
+text-align: center;
+justify-content: center;
+}
+
+.carousel-item__details--anwerIwasGivenThree {
+color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  font-size: 20px;
+}
+.carousel-item__details--anwerIwasGivenFour {
+color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.carousel-item__details--titleeighteen {
+  margin-top: -5rem;
+ font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em; 
+}
+
+.standing {
+margin-top: 90px;
+text-align: start;
+margin-bottom: 0;
+line-height: 3em;
+}
+
+.theDays {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--theDays {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerTheday {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.answerTogether {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--together {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerTogether {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.happy {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--happy {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--asnswerHappy {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--tititleNineteentle {
+margin-top: -3rem;
+ font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em; 
+}
+
+
+.school {
+margin-top: 20px;
+text-align: start;
+margin-bottom: 0;
+line-height: 3em;
+}
+.colleagues {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--colleagues {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerColleagues {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.gardenName {
+display:flex ;
+text-align: start;
+}
+
+.carousel-item__details--gardenName {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerGardenName {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+
+.schoolName {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--schoolName {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerSchoolName {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.teacherName {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--teacherName {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answeTeacherName {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--titleTwentys {
+margin-top: -13%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.carousel-item__details--titleTwenty {
+font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+}
+.anecdotes {
+display:flex ;
+justify-content: flex-start;
+line-height: 2em;
+}
+.answerAnecdotes {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerAnecdotesOne {
+  margin-top: 10px;
+color: white;
+  /* text-align: start; */
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerAnecdotesTwo{
+color: white;
+  /* text-align: start; */
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--answerAnecdotesThree {
+color: white;
+  
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--titleTwentyOne {
+  margin-top: 8%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.walks {
+margin-top: 20px;
+text-align: start;
+margin-bottom: 0;
+line-height: 3em;
+}
+
+.walk {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--walk {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerWalk {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.iWentWith {
+display:flex ;
+text-align: start;
+}
+.carousel-item__details--iWentWith {
+color: black;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+.carousel-item__details--answerIWentWith {
+color: white;
+  text-align: start;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.carousel-item__details--titleTwentyTwo {
+margin-top: -11%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.carousel-item__details--titleTwentyFour {
+margin-top: -11%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.biographys {
+  margin-top: 3%;
+  display: block;
+  justify-content: center;
+}
+
+.carousel-item__details--biographys {
+  margin-top: 2%;
+  color: #833471;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  
+}
+
+
+.biography {
+  margin-top: 8%;
+  display: block;
+  justify-content: center;
+}
+.carousel-item__details--biography {
+ margin-top: 2%;
+ color: #833471;
+  font-family: 'Oleo Script';
+  padding-left: 10px;
+  font-size: 20px;
+  
+
+}
+
+.carousel-item__details--titleTwentyThrees {
+margin-top: -14%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+}
+
+.carousel-item__details--titleTwentyThree {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Oleo Script';
+  line-height: 0.5em;
+}
+
+.carousel-item__details--title {
+  margin-top:2px;
+  color: #B80C09;
+  font-family: 'Oleo Script';
+  margin: 5px 0px 0px 0px;
+   padding-left: 10px;
+   text-align: start;
+}
+
+
+.carousel-item__details--subtitle {
+  color: #B80C09;
+  font-family: 'Oleo Script';
+  font-size: 15px;
+  margin: 3px 0px;
+   padding-left: 10px;
+   text-align: start;
+}
