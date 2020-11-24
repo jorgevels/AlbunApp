@@ -1,15 +1,10 @@
 import React from "react";
 import Layout from "../../components/Layout";
-/* import Header from "../../components/Header"; */
 import { Carousel } from "react-responsive-carousel";
-
-/* import Carousel from "../../components/Carousel"; */
-
 import CarouselItem from "../../components/CarouselItem";
 import PageLoading from "../../components/PageLoading";
 import useTvShowsApi from "../../hooks/useTvShowsApi";
-import "../../assets/styles/App.scss";
-/* import "../../assets/styles/components/Carousel.scss"; */
+/* import "../../assets/styles/App.scss"; */
 
 const API = "https://api-test.jorgevelasquez006.vercel.app/API/db.json";
 

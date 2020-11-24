@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+/* import { createGlobalStyle } from "styled-components";
 
 export const colors = {
   obscure: "#1b1b25",
@@ -63,3 +63,4 @@ export const GlobalStyles = createGlobalStyle`
     padding-bottom: 10px;
   }
 `;
+ */

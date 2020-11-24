@@ -13,8 +13,8 @@
       "dest": "/$1.css"
     },
     {
-      "src": "(.*).css",
-      "dest": "/$1.css"
+      "src": "(.*).scss",
+      "dest": "/$1.scss"
     },
     {
       "src": "(.*).js",

@@ -1,0 +1,23 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.4f91e1365106122c425a3b433cc0414d.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.21b8ad52de44bc0cc38415e1632717bb.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "AlbunApp ",
+  "short_name": "AlbunApp ",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "shortname": "AlbunApp",
+  "description": "AlbunApp Guardara los mejores recuerdos de tu BeBé.",
+  "background_color": "#9EE9F8",
+  "theme_color": "#41dfff"
+}

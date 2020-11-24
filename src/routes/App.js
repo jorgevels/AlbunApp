@@ -3,7 +3,7 @@ import React, { Suspense } from "react";
 /* import { BrowserRouter, Switch, Route } from "react-router-dom"; */
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import { GlobalStyles } from "../GlobalStyle";
+import { GlobalStyles } from "../styles/GlobalStyles";
 
 import Home from "../pages/Home";
 import Photos from "../containers/Photos";

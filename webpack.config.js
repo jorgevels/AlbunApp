@@ -1,72 +1,82 @@
+// Requerimos el modulo de path el Html plugin que isntalamos
 const path = require("path");
-const HtmlWebPackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const WebpackPwaManifestPlugin = require("webpack-pwa-manifest");
 const WorkboxWebpackPlugin = require("workbox-webpack-plugin");
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
-/* const dotenv = require("dotenv-webpack"); */
+
+// Creamos un nuevo modulo que vamos a exportar con esta configuracion
+// Vamos a configurar cada unos de los elementos que necesitamos
 
 module.exports = {
+  // Iniciando por la entrada del proyecto
+  // Haciendo referencia al archivo principal
   entry: "./src/index.js",
-  /* output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
-  }, */
+  // En este output, es donde vamos a guardar los archivos resultantes cuando hagamos la configuracion
   output: {
-    filename: "app.bundle.js",
+    // La instancia resolve nos ayuda a detectar el directorio donde nos encontramos y el directorio donde vamos a guardar los archivos compilados
+    path: path.resolve(__dirname, "dist"),
+    // Filename nos pode un nombre al archivo compilado
+    filename: "bundle.js",
+    // Le decimos al proyecto que parta desde esta ruta para encontrar los elementos
     publicPath: "/",
   },
-
-  devServer: {
-    historyApiFallback: true,
-  },
-
+  // Este elemento resuelve las extensiones que vamos a utilizar
   resolve: {
     extensions: [".js", ".jsx"],
   },
-
+  // Modulo con las reglas necesarias
   module: {
     rules: [
       {
+        // Regla principal
+        // Identificacion de los archivos con una expresion regular
         test: /\.(js|jsx)$/,
+        // Exclusion de carpetas
         exclude: /node_modules/,
+        // Utilizamos el loader de babel instalado
         use: {
           loader: "babel-loader",
         },
       },
       {
+        // Regla para trabajar con los archivos html
         test: /\.html$/,
-        use: [
-          {
-            loader: "html-loader",
-          },
-        ],
+        // Utilizamos el loader de babel instalado
+        use: {
+          loader: "html-loader",
+        },
       },
       {
         test: /\.(s*)css$/,
         use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-          },
+          { loader: MiniCssExtractPlugin.loader },
           "css-loader",
           "sass-loader",
         ],
       },
       {
-        test: /\.(png|gif|jpg)$/,
+        test: /\.(ico|png|gif|jpg)$/,
         use: [
           {
             loader: "file-loader",
-            options: {
-              name: "assets/[hash].[ext]",
-            },
+            options: { name: "assets/[hash].[ext]" },
           },
         ],
       },
     ],
   },
+  devServer: {
+    historyApiFallback: true,
+  },
+
+  // Se añaden los plugins que necesitamos
   plugins: [
-    new HtmlWebPackPlugin({
+    // pasamo un objeto con la configuracion que necesitamos
+
+    new HtmlWebpackPlugin({
+      //Donde esta ubicado el template que tenemos
       template: "./public/index.html",
       filename: "./index.html",
     }),
@@ -78,8 +88,8 @@ module.exports = {
       name: "AlbunApp ",
       shortname: "AlbunApp",
       description: "AlbunApp Guardara los mejores recuerdos de tu BeBé.",
-      background_color: "#4D685A",
-      theme_color: "#0D5C63",
+      background_color: "#9EE9F8",
+      theme_color: "#41dfff",
       //Array iconos de la aplicacion
       icons: [
         {
@@ -90,6 +100,7 @@ module.exports = {
       ],
     }),
     new FaviconsWebpackPlugin("./src/assets/favicon.png"),
+
     new WorkboxWebpackPlugin.GenerateSW({
       runtimeCaching: [
         {

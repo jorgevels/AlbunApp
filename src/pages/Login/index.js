@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Container, LandPage } from "./styles";
+/* import "../../assets/styles/App.scss"; */
 
 const Page0 = () => (
   <Container>
