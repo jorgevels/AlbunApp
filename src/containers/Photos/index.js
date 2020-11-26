@@ -4,7 +4,6 @@ import { Carousel } from "react-responsive-carousel";
 import CarouselItem from "../../components/CarouselItem";
 import PageLoading from "../../components/PageLoading";
 import useTvShowsApi from "../../hooks/useTvShowsApi";
-/* import "../../assets/styles/App.scss"; */
 
 const API = "https://api-test.jorgevelasquez006.vercel.app/API/db.json";
 
@@ -14,7 +13,6 @@ const App = () => {
     <PageLoading />
   ) : (
     <Layout>
-      {/*  <Header /> */}
       <div className="carousel">
         <div className="carousel__container">
           {

@@ -1,11 +1,11 @@
 .register {
-  /* background-image: linear-gradient(#21c08b, #8f57fd);
+  background-image: linear-gradient(#21c08b, #8f57fd);
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   padding: 0px 30px;
-  min-height: calc(120vh - 200px); */
+  min-height: calc(120vh - 200px);
 }
 
 .register__container {
@@ -14,8 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 400px;
-  margin-top: 10%;
+  min-height: 600px;
   padding: 60px 68px 40px;
 }
 .register__container h2 {

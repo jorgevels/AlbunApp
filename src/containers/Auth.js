@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import app from "./base";
+import app from "../config/base";
+import Loading from "../components/PageLoading";
 
 export const AuthContext = React.createContext();
 
@@ -15,7 +16,11 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   if (pending) {
-    return <>Loading...</>;
+    return (
+      <>
+        <Loading />
+      </>
+    );
   }
 
   return (

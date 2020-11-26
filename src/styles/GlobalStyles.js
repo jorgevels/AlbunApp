@@ -88,4 +88,6 @@ export const GlobalStyles = createGlobalStyle`
     padding-bottom: 10px;
   } */
   }
+
+ 
 `;

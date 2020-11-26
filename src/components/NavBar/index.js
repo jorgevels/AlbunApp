@@ -19,9 +19,9 @@ const NavBar = () => {
       <NavLink to="/photos">
         <FaBookOpen size={SIZE} />
       </NavLink>
-      <NavLink to="/login">
+      {/* <NavLink to="/login">
         <MdPersonOutline size={SIZE} />
-      </NavLink>
+      </NavLink> */}
     </Nav>
   );
 };

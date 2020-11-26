@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, LandPage } from "./styles";
-import "../../assets/styles/App.scss";
+import Menu from "../../components/Menu/MenuBlur";
 
-const Home = () => (
-  <>
-    {/*  <Header /> */}
+const Home = () => {
+  //Hooks
+  const [pageBlur, setPageBlur] = useState("container");
+  //Handle
+  const traerBlur = (x) => setPageBlur(x);
+
+  return (
     <Container>
+      <div className="App">
+        <Menu data={pageBlur} blur={traerBlur} />
+      </div>
       <LandPage>
         <p>
           Diario y Álbum de <br />
@@ -13,7 +20,7 @@ const Home = () => (
         </p>
       </LandPage>
     </Container>
-  </>
-);
+  );
+};
 
 export default Home;

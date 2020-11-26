@@ -6,6 +6,18 @@ const WebpackPwaManifestPlugin = require("webpack-pwa-manifest");
 const WorkboxWebpackPlugin = require("workbox-webpack-plugin");
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 
+const dotenv = require("dotenv-webpack");
+
+const pluginHTML = new HtmlWebpackPlugin({
+  template: "./public/index.html",
+  filename: "index.html",
+});
+
+const pluginCSS = new MiniCssExtractPlugin({
+  template: "./src/index.css",
+  filename: "index.css",
+});
+
 // Creamos un nuevo modulo que vamos a exportar con esta configuracion
 // Vamos a configurar cada unos de los elementos que necesitamos
 
@@ -128,4 +140,6 @@ module.exports = {
       ],
     }),
   ],
+  plugins: [pluginHTML, pluginCSS, new dotenv()],
+  devtool: "source-map",
 };

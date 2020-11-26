@@ -15,9 +15,9 @@
   ],
   "author": "Jorge Velasquez <jorgevelasquez006@hotmail.com>",
   "license": "ISC",
-  
   "dependencies": {
     "babel-eslint": "^10.0.2",
+    "dotenv-webpack": "^1.7.0",
     "classnames": "^2.2.6",
     "eslint": "^6.0.1",
     "eslint-config-airbnb": "^17.1.1",
@@ -31,6 +31,8 @@
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-icons": "^3.7.0",
+    "react-mdl": "^1.11.0",
+    "react-admin": "2.1.0",
     "react-responsive-carousel": "^3.2.10",
     "styled-components": "^4.4.0"
   },
