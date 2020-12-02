@@ -1,5 +1,5 @@
 {
-  "name": "myalbun",
+  "name": "myalbum",
   "version": "1.0.0",
   "description": "React Base",
   "main": "index.js",
@@ -29,6 +29,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-admin": "2.1.0",
+    "particles-bg": "^2.4.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-mdl": "^1.11.0",

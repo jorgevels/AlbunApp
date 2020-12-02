@@ -97,9 +97,9 @@ module.exports = {
     }),
     new WebpackPwaManifestPlugin({
       //Le pasamos el objeto de configuracion
-      name: "AlbunApp ",
+      name: "AlbumApp ",
       shortname: "Matias",
-      description: "AlbunApp Guardara los mejores recuerdos de tu BeBé.",
+      description: "AlbumApp Guardara los mejores recuerdos de tu BeBé.",
       background_color: "#41dfff",
       theme_color: "#9EE9F8",
       //Array iconos de la aplicacion
