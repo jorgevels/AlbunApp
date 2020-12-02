@@ -5,13 +5,10 @@ import app from "../../config/base";
 
 const Menu = (props) => {
   //Inicializando estado con useState()
-
   const [title, setTitle] = useState("menu-close");
   const [menuTexto, setMenuTexto] = useState("no-visible");
-  console.log(props);
 
   //Handlers
-
   const handleMenu = () => {
     title === "menu-close" ? setTitle("menu-open") : setTitle("menu-close");
     menuTexto === "no-visible"
@@ -34,7 +31,7 @@ const Menu = (props) => {
           </Link>
         </div>
       </div>
-      <div className={`${menuTexto}2`}>
+      {/* <div className={`${menuTexto}2`}>
         <div className="link">Developing</div>
       </div>
       <div className={`${menuTexto}3`}>
@@ -42,7 +39,7 @@ const Menu = (props) => {
       </div>
       <div className={`${menuTexto}4`}>
         <div className="link">Developing</div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -33,7 +33,7 @@ export const GlobalStyles = createGlobalStyle`
    
   body {
    background: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) !important;
-    height: 100vh;
+    height: 90vh;
     margin: 0 auto;
     max-width: 500px; 
     overscroll-behavior: none;
@@ -53,16 +53,18 @@ export const GlobalStyles = createGlobalStyle`
   .carousel .slide {
    ${"" /*  margin-top:0.3rem; */}
    display:flex;
-    background: red ;
+   ${"" /*  background: red ; */}
     align-items: center;
     height: 100vh;
+  
     
-    ${
-      "" /* background: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) !important ; */
-    }
+    
+       background: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) !important ; 
+    
 }
 
 .carousel .carousel-status {
+  ${"" /* display:none; */}
     position: absolute;
     top: 0;
     margin-right: 1rem !important;

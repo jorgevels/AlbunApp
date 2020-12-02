@@ -1,22 +1,15 @@
-/* import React from "react"; */
-import React, { Suspense } from "react";
-/* import { BrowserRouter, Switch, Route } from "react-router-dom"; */
+import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-/* import { Admin, Resource } from "react-admin"; */
-
 import { GlobalStyles } from "../styles/GlobalStyles";
 
 import Home from "../pages/Home";
-import Photos from "../containers/Photos";
-import Login from "../pages/Login";
-
-/* import Login from "../Login"; */
-import SignUp from "../pages/Register";
+import SignUp from "../pages/Register/Register";
+import Login from "../pages/Login/index";
 
 import NotFound from "../components/NotFound";
 import NavBar from "../components/NavBar";
-/* import Cerrar from "../components/Cerrar/Salir"; */
 
+import Photos from "../containers/Photos";
 import { AuthProvider } from "../containers/Auth";
 import PrivateRoute from "../containers/PrivateRoute";
 

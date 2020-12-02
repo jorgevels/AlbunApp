@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { above, colors } from "../../GlobalStyle";
 
 const Container = styled.div`
   width: 100%;

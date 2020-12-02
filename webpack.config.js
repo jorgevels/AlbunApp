@@ -98,10 +98,10 @@ module.exports = {
     new WebpackPwaManifestPlugin({
       //Le pasamos el objeto de configuracion
       name: "AlbunApp ",
-      shortname: "AlbunApp",
+      shortname: "Matias",
       description: "AlbunApp Guardara los mejores recuerdos de tu BeBé.",
-      background_color: "#9EE9F8",
-      theme_color: "#41dfff",
+      background_color: "#41dfff",
+      theme_color: "#9EE9F8",
       //Array iconos de la aplicacion
       icons: [
         {
@@ -139,7 +139,9 @@ module.exports = {
         },
       ],
     }),
+    new dotenv(),
   ],
-  plugins: [pluginHTML, pluginCSS, new dotenv()],
-  devtool: "source-map",
+  /*  plugins: [pluginHTML, pluginCSS, new dotenv()], */
+  /*  plugins: [new dotenv()], */
+  /*  devtool: "source-map", */
 };

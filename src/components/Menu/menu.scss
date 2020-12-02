@@ -1,7 +1,7 @@
 $menu-width: 40px;
 $menu-height: 5px;
 $menu-spacing: 9px;
-$menu-color: #776c0f;
+$menu-color: #4e148c;
 
 
 
@@ -38,8 +38,8 @@ $menu-color: #776c0f;
     height:  $menu-height + $menu-spacing * 3.3;
     cursor: pointer;
     position: absolute;
-    top: 6%;
-    left: 6%;
+    top: 2%;
+    right: 6%;
     z-index: 10000;
   }
 
@@ -151,9 +151,12 @@ $menu-color: #776c0f;
 .visible2,
 .visible3,
 .visible4 {
+    top:-10%;
+    right: 27%;
     color: white; 
-    width: 200px;
-    height: 80px;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
     z-index: 50;
     position: absolute;  
     border-bottom: 1px solid white;
@@ -217,7 +220,9 @@ $menu-color: #776c0f;
     position: absolute;
     color: white; 
     visibility: hidden;
-    width: 200px;
+    top:-10%;
+    right: 27%;
+    width: 100px;
     height: 80px;
     z-index: 50;
     opacity: 0;
@@ -237,7 +242,7 @@ $menu-color: #776c0f;
 //Texto
 
 .link {
-    color: white;
+    color: yellow;
     text-decoration: none;
     padding-left: 0%;
     padding-right: 33%;
@@ -249,7 +254,7 @@ $menu-color: #776c0f;
     -ms-transition: 0.4s ease-out;
     transition: 0.4s ease-out;
     &:hover {
-        padding-left: 10%;
+         padding-left: 10%;
         -webkit-transition: 0.4s ease-out;
         -moz-transition: 0.4s ease-out;
         -o-transition: 0.4s ease-out;
