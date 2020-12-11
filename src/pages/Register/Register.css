@@ -1,17 +1,12 @@
-.register {
-  /* background-image: linear-gradient(#21c08b, #8f57fd);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0px 30px;
-  min-height: calc(120vh - 200px); */
+.MdPermIdentity {
+  margin-bottom: 30px;
 }
 
 .register__container {
   border-radius: 40px;
   color: white;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: space-around;
   min-height: 400px;

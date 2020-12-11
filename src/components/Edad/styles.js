@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { above, colors } from "../../styles/GlobalStyles";
 
 const Container = styled.div``;
 
@@ -15,12 +16,20 @@ const LandPage = styled.div`
     font-family: "Shadows Into Light", cursive;
     font-weight: 700;
     span {
-      ${"" /* font-family: "Share Tech Mono", monospace; */}
-      font-family: 'Shadows Into Light Two', cursive;
-
-      color: #084b83;
+      font-family: "Shadows Into Light Two", cursive;
+      color: ${colors.lightBlue};
       font-weight: 600;
     }
+    ${above.small`
+     font-size: 25px;
+    `}
+    ${above.mediu`
+    font-size: 30px;
+  `}
+
+    ${above.medium`
+    font-size: 30px;
+  `}
   }
 `;
 

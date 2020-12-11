@@ -6,8 +6,7 @@ import PageLoading from "../../components/PageLoading";
 import ParticlesBg from "particles-bg";
 import useTvShowsApi from "../../hooks/useTvShowsApi";
 
-/* const API = "https://api-test.jorgevelasquez006.vercel.app/API/db.json"; */
-const API = "https://api-albun.jorgevelasquez006.vercel.app/db.json";
+const API = "https://api-albun.vercel.app/db%20copy.json";
 
 let config = {
   num: [4, 7],

@@ -27,7 +27,9 @@ const Menu = (props) => {
       <div className={`${menuTexto}1`}>
         <div className="link" onClick={() => app.auth().signOut()}>
           <Link to="/login">
-            <div className="link">Salir</div>
+            <div className="link" onClick={handleMenu}>
+              Salir
+            </div>
           </Link>
         </div>
       </div>

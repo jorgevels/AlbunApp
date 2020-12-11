@@ -1,4 +1,32 @@
-import { createGlobalStyle } from "styled-components";
+import { css, createGlobalStyle } from "styled-components";
+
+export const colors = {
+  obscure: "#1b1b25",
+  darkBlue: "#1c3643",
+  lightBlue: "#084b83",
+  lightGreen: "#95ca3e",
+  green: "#85c638",
+  darkGreen: "#58902d",
+  danger: "#ff463b",
+  yellow: "#ffff00",
+};
+
+export const size = {
+  small: 320,
+  mediu: 411,
+  medium: 414,
+  mediumL: 768,
+  large: 1024,
+};
+
+export const above = Object.keys(size).reduce((acc, label) => {
+  acc[label] = (...args) => css`
+    @media (min-width: ${size[label]}px) {
+      ${css(...args)}
+    }
+  `;
+  return acc;
+}, {});
 
 export const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Lato:700i|Montserrat:400i&display=swap');
@@ -27,6 +55,8 @@ export const GlobalStyles = createGlobalStyle`
     border: 0;
     outline: 0;
   }
+
+  
   
 
    ${"" /*  Mobile first */}
@@ -51,19 +81,10 @@ export const GlobalStyles = createGlobalStyle`
 
 }
   .carousel .slide {
-   ${"" /*  margin-top:0.3rem; */}
-   display:flex;
-   ${"" /*  background: red ; */}
-    align-items: center;
-    height: 100vh;
-  
-    
-    
-       ${
-         "" /* background: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) !important ;  */
-       }
-       background: transparent !important;
-    
+  display:flex;
+  align-items: center;
+  height: 100vh;
+  background: transparent !important;  
 }
 
 .carousel .carousel-status {
@@ -79,20 +100,18 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 .carousel .thumbs-wrapper {
-   ${"" /*  margin: 20px; */}
-     margin: 0px !important;
-    overflow: hidden;
+  margin: 0px !important;
+  overflow: hidden;
 }
 
-  ${
-    "" /* #app {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-    overflow-x: hidden;
-    overflow-y: hidden;
-    min-height: 100vh;
-    padding-bottom: 10px;
-  } */
-  }
-
+.carousel .control-dots {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
  
 `;

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { above, colors } from "../../styles/GlobalStyles";
 
 const Container = styled.div`
   width: 100%;
@@ -15,36 +14,18 @@ const LandPage = styled.div`
     padding: 0;
     width: 140px;
     position: absolute;
-    ${above.small`
-    margin-top: 2vh;
-    
-  `}
   }
 
   p {
     margin-top: 30vh;
     font-size: 40px;
     text-align: center;
-    color: ${colors.yellow};
+    color: yellow;
     font-family: "Oleo Script";
 
     span {
       font-weight: 200;
     }
-
-    ${above.small`
-    margin-top: 25vh;
-    font-size: 30px;
-  `}
-    ${above.mediu`
-    margin-top: 25vh;
-    font-size: 40px;
-  `}
-
-    ${above.medium`
-    margin-top: 25vh;
-    font-size: 40px;
-  `}
   }
 `;
 

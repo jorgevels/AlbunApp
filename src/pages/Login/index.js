@@ -1,9 +1,13 @@
 import React, { useCallback, useContext } from "react";
 import { withRouter, Redirect } from "react-router";
+import { MdLockOutline } from "react-icons/md";
 
 import app from "../../config/base";
 import "./Login.css";
 import { AuthContext } from "../../containers/Auth";
+
+const SIZE = "52px";
+const COLOR = "#B80C09";
 
 const Login = ({ history }) => {
   const handleLogin = useCallback(
@@ -31,6 +35,9 @@ const Login = ({ history }) => {
   return (
     <section className="login">
       <section className="login__container">
+        <div className="MdLockOutline">
+          <MdLockOutline size={SIZE} color={COLOR} />
+        </div>
         <h2>Iniciar Sesión</h2>
         <form className="login__container--form" onSubmit={handleLogin}>
           <input

@@ -22,6 +22,9 @@ const CarouselItem = ({
   birthTime,
   answerTime,
   cover,
+  coverOne,
+  coverTwo,
+  coverThree,
   titleTwentyFour,
   biographys,
   biographys1,
@@ -159,11 +162,11 @@ const CarouselItem = ({
   titleTwentyTwo,
   titleTwentyThrees,
   titleTwentyThree,
-
+  titles,
+  contitles,
+  subtitles,
   title,
   year,
-  contentRating,
-  duration,
 }) => (
   <>
     <div className="carousel-item">
@@ -179,7 +182,13 @@ const CarouselItem = ({
           <p className="carousel-item__details--theDay">{theDay}</p>
           <p className="carousel-item__details--answerDay">{answerDay}</p>
         </div>
+
         <p className="carousel-item__details--titleTwo">{titleTwo}</p>
+
+        <p className="carousel-item__details--titles">{titles}</p>
+        <p className="carousel-item__details--contitles">{contitles}</p>
+        <p className="carousel-item__details--subtitles">{subtitles}</p>
+
         <div className="naci">
           <p className="carousel-item__details--born">{born}</p>
           <p className="carousel-item__details--answerBorn">{answerBorn}</p>
@@ -209,31 +218,37 @@ const CarouselItem = ({
           <p className="carousel-item__details--answerTime">{answerTime}</p>
         </div>
         <p className="carousel-item__details--titleThree">{titleThree}</p>
+
         <div className="christening">
           <p className="carousel-item__details--christening">{christening}</p>
           <p className="carousel-item__details--christeningDate">
             {christeningDate}
           </p>
         </div>
+
         <div className="church">
           <p className="carousel-item__details--church">{church}</p>
           <p className="carousel-item__details--nameChurch">{nameChurch}</p>
         </div>
+
         <div className="godfather">
           <p className="carousel-item__details--godfather">{godfather}</p>
           <p className="carousel-item__details--nameGodfather">
             {nameGodfather}
           </p>
         </div>
+
         <div className="godmother">
           <p className="carousel-item__details--godmother">{godmother}</p>
           <p className="carousel-item__details--nameGodmother">
             {nameGodmother}
           </p>
         </div>
+
         <p className="carousel-item__details--titleFours">{titleFours}</p>
         <p className="carousel-item__details--titleFour">{titleFour}</p>
         {/* Pendient4e */}
+
         <div className="firstDays">
           <div className="sleep">
             <p className="carousel-item__details--sleep">{sleep}</p>
@@ -397,30 +412,35 @@ const CarouselItem = ({
           </div>
         </div>
         <p className="carousel-item__details--titleTwelves">{titleTwelves}</p>
-        <div className="answerDislike">
-          <div className="start">
-            <p className="carousel-item__details--titleTwelve">{titleTwelve}</p>
-            <p className="carousel-item__details--answerDislike">
-              {answerDislike}
-            </p>
-          </div>
-          <div className="answerBathroom">
-            <p className="carousel-item__details--titleThirteen">
-              {titleThirteen}
-            </p>
-            <p className="carousel-item__details--answerBathroom">
-              {answerBathroom}
-            </p>
-          </div>
-          <div className="answerDamaged">
-            <p className="carousel-item__details--titleFourteen">
-              {titleFourteen}
-            </p>
-            <p className="carousel-item__details--answerDamaged">
-              {answerDamaged}
-            </p>
-          </div>
+
+        {/*  <div className="answerDislike"> */}
+        <div className="start">
+          <p className="carousel-item__details--titleTwelve">{titleTwelve}</p>
+          {/*  <img className="carousel-item__img-coverOne" src={coverOne} /> */}
+          <p className="carousel-item__details--answerDislike">
+            {answerDislike}
+          </p>
         </div>
+        <div className="answerBathroom">
+          {/* <img className="carousel-item__img-coverTwo" src={coverTwo} /> */}
+          <p className="carousel-item__details--titleThirteen">
+            {titleThirteen}
+          </p>
+          <p className="carousel-item__details--answerBathroom">
+            {answerBathroom}
+          </p>
+        </div>
+        <div className="answerDamaged">
+          <p className="carousel-item__details--titleFourteen">
+            {titleFourteen}
+          </p>
+          <p className="carousel-item__details--answerDamaged">
+            {answerDamaged}
+          </p>
+          {/*  <img className="carousel-item__img-coverThree" src={coverThree} /> */}
+        </div>
+        {/*  </div> */}
+
         <p className="carousel-item__details--titleFifteen">{titleFifteen}</p>
         <div className="importantMoments">
           <div className="startCrawling">
@@ -602,6 +622,7 @@ const CarouselItem = ({
 
         <p className="carousel-item__details--title">{title}</p>
         <p className="carousel-item__details--subtitle">{year}</p>
+
         {/* <p className="carousel-item__details--subtitle">{`${year} ${contentRating} ${duration}`}</p> */}
       </div>
     </div>

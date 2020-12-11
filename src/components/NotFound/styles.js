@@ -15,7 +15,7 @@ const Container = styled.div`
   text-align: center;
 
   h1 {
-    font-size: 32px;
+    font-size: 25px;
   }
 
   img {

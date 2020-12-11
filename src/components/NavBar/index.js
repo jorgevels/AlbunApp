@@ -19,7 +19,7 @@ const NavBar = () => {
       <NavLink to="/photos">
         <FaBookOpen size={SIZE} />
       </NavLink>
-      {/* <NavLink to="/login">
+      {/* <NavLink to="/prueba">
         <MdPersonOutline size={SIZE} />
       </NavLink> */}
     </Nav>

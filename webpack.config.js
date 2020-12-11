@@ -116,19 +116,20 @@ module.exports = {
     new WorkboxWebpackPlugin.GenerateSW({
       runtimeCaching: [
         {
+          // Le pasamos la url de donde estamos cargando las imagenes, le podemos pasar varias urls
           urlPattern: new RegExp(
-            "https://maps.arcgis.com/sharing/rest/content/items/3ddd6c4932d649d6996db442e920ceb9/data|res.cloudinary.com"
+            "https://cloudinary.com/console/c-7e2ed658e0924b0e0fa252fbfa0813/media_library/folders/13368d85d659d2aaae03219074274791"
           ),
+          // Le decimos que primero busque en la cache antes de ir a la red
           handler: "CacheFirst",
+          // En las opciones le pasamos el nombre de la cache images
           options: {
             cacheName: "images",
           },
         },
         {
           // Cache para la API
-          urlPattern: new RegExp(
-            "https://api-covi-19.jorgevelasquez006.now.sh/API/covi19.json|https://wuhan-coronavirus-api.laeyoung.endpoint.ainize.ai/jhu-edu/brief|https://wuhan-coronavirus-api.laeyoung.endpoint.ainize.ai/jhu-edu/latest?iso2=CO"
-          ),
+          urlPattern: new RegExp("https://api-albun.vercel.app/db%20copy.json"),
           // Le decimos que primero valla a la red antes de ir a la cache
           // para tener los datos actulizados
           handler: "NetworkFirst",
@@ -141,7 +142,4 @@ module.exports = {
     }),
     new dotenv(),
   ],
-  /*  plugins: [pluginHTML, pluginCSS, new dotenv()], */
-  /*  plugins: [new dotenv()], */
-  /*  devtool: "source-map", */
 };
