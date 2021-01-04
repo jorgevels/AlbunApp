@@ -50,9 +50,9 @@ const Home = () => {
 
   return (
     <Container>
-      <div className="App">
+      {/* <div className="App">
         <Menu data={pageBlur} blur={traerBlur} />
-      </div>
+      </div> */}
       <LandPage>
         <img src={Logo} alt="Logo" />
         <p>
@@ -61,6 +61,7 @@ const Home = () => {
         </p>
       </LandPage>
       <Edad />
+
       <LandPageFooter>
         <img src={Footer} alt="Logo" />
       </LandPageFooter>

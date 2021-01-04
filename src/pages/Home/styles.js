@@ -26,7 +26,9 @@ const LandPage = styled.div`
     font-size: 40px;
     text-align: center;
     color: ${colors.yellow};
-    font-family: "Oleo Script";
+    ${"" /* font-family: "Oleo Script"; */}
+    font-family: 'Niconne', cursive;
+    font-weight: 500;
 
     span {
       font-weight: 200;
@@ -38,12 +40,12 @@ const LandPage = styled.div`
   `}
     ${above.mediu`
     margin-top: 25vh;
-    font-size: 40px;
+    font-size: 47px;
   `}
 
     ${above.medium`
     margin-top: 25vh;
-    font-size: 40px;
+    font-size: 47px;
   `}
   }
 `;

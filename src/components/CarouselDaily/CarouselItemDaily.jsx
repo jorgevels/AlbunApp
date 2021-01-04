@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./CarouselItem.scss";
+import "./CarouselItemDaily.scss";
 
 const CarouselItem = ({
   titleOne,
@@ -22,9 +22,7 @@ const CarouselItem = ({
   birthTime,
   answerTime,
   cover,
-  coverOne,
-  coverTwo,
-  coverThree,
+
   titleTwentyFour,
   biographys,
   biographys1,
@@ -131,6 +129,10 @@ const CarouselItem = ({
   anwerIwasGivenTwo,
   anwerIwasGivenThree,
   anwerIwasGivenFour,
+  anwerIwasGivenFite,
+  anwerIwasGivenSix,
+  anwerIwasGivenSeven,
+  anwerIwasGivenEigth,
 
   titleeighteen,
   theDays,
@@ -173,7 +175,6 @@ const CarouselItem = ({
       <img className="carousel-item__img" src={cover} alt={title} />
       <div className="carousel-item__details">
         <p className="carousel-item__details--titleOne">{titleOne}</p>
-
         <div className="regaladoPOR">
           <p className="carousel-item__details--giftedBy">{giftedBy}</p>
           <p className="carousel-item__details--answerGift">{answerGift}</p>
@@ -504,12 +505,29 @@ const CarouselItem = ({
               {anwerIwasGivenTwo}
             </p>
           </div>
+
           <div className="IwasGivenThreeAndFour">
             <p className="carousel-item__details--anwerIwasGivenThree">
               {anwerIwasGivenThree}
             </p>
             <p className="carousel-item__details--anwerIwasGivenFour">
               {anwerIwasGivenFour}
+            </p>
+          </div>
+          <div className="IwasGivenThreeAndFite">
+            <p className="carousel-item__details--anwerIwasGivenFite">
+              {anwerIwasGivenFite}
+            </p>
+            <p className="carousel-item__details--anwerIwasGivenSix">
+              {anwerIwasGivenSix}
+            </p>
+          </div>
+          <div className="IwasGivenThreeAndSeven">
+            <p className="carousel-item__details--anwerIwasGivenSeven">
+              {anwerIwasGivenSeven}
+            </p>
+            <p className="carousel-item__details--anwerIwasGivenEigth">
+              {anwerIwasGivenEigth}
             </p>
           </div>
         </div>

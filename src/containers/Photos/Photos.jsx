@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout/Layout";
 import { Carousel } from "react-responsive-carousel";
-import CarouselItem from "../../components/Carousel/CarouselItem";
+import CarouselItem from "../../components/CarouselPhotos/CarouselItemPhotos";
 import PageLoading from "../../components/PageLoading";
 import ParticlesBg from "particles-bg";
 import useTvShowsApi from "../../hooks/useTvShowsApi";
@@ -40,7 +40,7 @@ if (Math.random() > 0.85) {
     },
   });
 }
-const App = () => {
+const Photos = () => {
   const initialState = useTvShowsApi(API);
   return initialState.length === 0 ? (
     <PageLoading />
@@ -50,8 +50,8 @@ const App = () => {
         <div className="carousel__container">
           {
             <>
-              <Carousel>
-                {initialState.trends.map((item) => (
+              <Carousel autoPlay>
+                {initialState.photos.map((item) => (
                   <CarouselItem key={item.id} {...item} />
                 ))}
               </Carousel>
@@ -64,4 +64,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Photos;

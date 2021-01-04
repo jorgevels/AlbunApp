@@ -6,7 +6,7 @@ import { fadeIn } from "../../styles/animation";
 export const Nav = styled.nav`
   align-items: center;
 
-  background: transparent;
+  background: #46eefa;
   ${"" /* border-top: 1px solid #fcfcfc; */}
   border-top: 0.5px solid #e0e0e0;
   bottom: 0;

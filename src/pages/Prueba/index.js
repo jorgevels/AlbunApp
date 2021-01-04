@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/* import React, { useState } from "react";
 import { Container, LandPage, LandPageFooter } from "./styles";
 import Menu from "../../components/Menu/MenuBlur";
 import Edad from "../../components/Edad";
@@ -43,9 +43,9 @@ const Prueba = () => {
     });
   }
 
-  //Hooks
+
   const [pageBlur, setPageBlur] = useState("container");
-  //Handle
+  
   const traerBlur = (x) => setPageBlur(x);
 
   return (
@@ -70,3 +70,4 @@ const Prueba = () => {
 };
 
 export default Prueba;
+ */
